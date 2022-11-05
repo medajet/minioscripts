@@ -7,4 +7,4 @@ client = Minio(
     secure=False
 )
 
-client.fget_object("static", "uploaded.png", "aa.png")
+client.fget_object("static", "favicon_trans.png", "favicon_trans.png")
